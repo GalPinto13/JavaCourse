@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="BASELINE_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mmn15_q2.Mmn15_q2Controller">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <ImageView fx:id="phil1" fitHeight="71.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+         <image>
+            <Image url="@descartes-square.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil2" fitHeight="93.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+         <image>
+            <Image url="@download%20(2).jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil3" fitHeight="79.0" fitWidth="121.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
+         <image>
+            <Image url="@download.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil4" fitHeight="98.0" fitWidth="123.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+         <image>
+            <Image url="@hobbes-square.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil5" fitHeight="109.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+         <image>
+            <Image url="@download%20(1).jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="237.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="2">
+         <image>
+            <Image url="@images.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick1" fitHeight="68.0" fitWidth="105.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick2" fitHeight="71.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true" rotate="173.4" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick3" fitHeight="73.0" fitWidth="120.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="-173.7" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick4" fitHeight="65.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="3">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick5" fitHeight="67.0" fitWidth="76.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="-58.2" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <ImageView fx:id="phil2RightStick" fitHeight="61.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true" rotate="-166.3" visible="false" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil2LeftStick" fitHeight="57.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true" rotate="-116.6" visible="false" GridPane.columnIndex="3">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil3RightStick" fitHeight="60.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true" rotate="-76.0" visible="false" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil3LeftStick" fitHeight="51.0" fitWidth="103.0" pickOnBounds="true" preserveRatio="true" rotate="-45.0" visible="false" GridPane.columnIndex="5" GridPane.rowIndex="3">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil4RightStick" fitHeight="50.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true" visible="false" GridPane.columnIndex="5" GridPane.rowIndex="5">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil4LeftStick" fitHeight="56.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true" rotate="60.9" visible="false" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil5RightStick" fitHeight="56.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true" rotate="11.3" visible="false" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="5">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fx:id="phil5LeftStick" fitHeight="68.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true" rotate="74.1" visible="false" GridPane.halignment="RIGHT" GridPane.rowIndex="5">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil1RightStick" fitHeight="62.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true" rotate="104.0" visible="false" GridPane.rowIndex="3">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="phil1LeftStick" fitHeight="61.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" rotate="167.5" visible="false" GridPane.rowIndex="1">
+         <image>
+            <Image url="@s-l400.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</GridPane>
